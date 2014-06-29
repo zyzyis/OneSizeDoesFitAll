@@ -19,8 +19,6 @@ public class Solution {
                 break;
         }
         
-        if (remain >= 0)
-            return head;
-        return -1;
+        return remain >= 0 ? head : -1;
     }
 }
